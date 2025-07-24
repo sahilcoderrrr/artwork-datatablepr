@@ -36,7 +36,7 @@ A modern and responsive React + TypeScript application using **PrimeReact DataTa
 
 ## 🚀 Live Demo
 
-🔗 [https://your-netlify-app.netlify.app](https://your-netlify-app.netlify.app)
+🔗 [https://mydt-netlify-app.netlify.app](https://luxury-genie-53635e.netlify.app/)
 
 > _(Replace with your actual Netlify URL after deployment)_
 
