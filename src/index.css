@@ -1,0 +1,79 @@
+/* index.css */
+
+:root {
+  --primary-color: #4f46e5;
+  --bg-color: #f9f9f9;
+  --text-color: #1f2937;
+  --border-color: #e5e7eb;
+  --card-bg: #ffffff;
+  --hover-bg: #f3f4f6;
+  --button-hover: #4338ca;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+}
+
+.p-datatable {
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.p-datatable-header {
+  background-color: var(--card-bg);
+  padding: 1rem;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.p-dropdown {
+  width: 180px;
+}
+
+.p-button {
+  background-color: var(--primary-color);
+  border: none;
+  color: #fff;
+  padding: 0.5rem 1.25rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.p-button:hover {
+  background-color: var(--button-hover);
+}
+
+.p-checkbox {
+  margin-right: 0.5rem;
+}
+
+.p-column-title {
+  font-weight: 600;
+}
+
+.p-datatable-tbody > tr:hover {
+  background-color: var(--hover-bg);
+}
